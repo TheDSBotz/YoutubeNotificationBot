@@ -20,10 +20,10 @@ try:
     APP_ID = 10956858
     API_HASH = config("API_HASH", default="cceefd3382b44d4d85be2d83201102b7")
     BOT_TOKEN = "5831494259:AAFhCj-c0y-s532guoKBJQUXVdEeDUOnfD"
-    YT_API_KEY = config("YT_API_KEY")
-    OWNER = config("OWNER")
-    CHAT = config("CHAT", cast=int)
-    CH_ID = config("YT_CHANNEL_ID")
+    YT_API_KEY = "AIzaSyD2OxLGCesQEiF1qo8D9tVlUtlroeWKlPo"
+    OWNER = 1125671241
+    CHAT = 1125671241
+    CH_ID = "SonySAB"
 except Exception as e:
     LOGS.info("Environment vars Missing")
     LOGS.info("something went wrong")
