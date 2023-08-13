@@ -17,9 +17,9 @@
 from decouple import config
 
 try:
-    APP_ID = config("APP_ID", default=6, cast=int)
-    API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
-    BOT_TOKEN = config("BOT_TOKEN")
+    APP_ID = 10956858
+    API_HASH = config("API_HASH", default="cceefd3382b44d4d85be2d83201102b7")
+    BOT_TOKEN = "5831494259:AAFhCj-c0y-s532guoKBJQUXVdEeDUOnfD"
     YT_API_KEY = config("YT_API_KEY")
     OWNER = config("OWNER")
     CHAT = config("CHAT", cast=int)
